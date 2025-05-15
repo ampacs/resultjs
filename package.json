@@ -1,0 +1,31 @@
+{
+  "name": "result",
+  "description": "",
+  "author": {
+    "name": "André Santiago"
+  },
+  "license": "MIT",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@stylistic/eslint-plugin-js": "^4.2.0",
+    "@types/jest": "^29.5.14",
+    "eslint": "^9.15.0",
+    "globals": "^15.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jiti": "^2.4.2",
+    "ts-jest": "^29.3.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.30.1"
+  }
+}
