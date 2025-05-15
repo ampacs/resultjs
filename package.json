@@ -10,6 +10,7 @@
   "main": "src/index.ts",
   "scripts": {
     "build": "tsc",
+    "postbuild": "tsx .scripts/mergejson.ts package.json package.dist.json -o dist/package.json",
     "lint": "eslint .",
     "test": "jest"
   },
